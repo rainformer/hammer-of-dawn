@@ -1,4 +1,3 @@
 # hammer-of-dawn
-hello 
 
-prova 
+risistemo un po
