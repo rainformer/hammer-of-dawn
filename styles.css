@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    color:white;
+}
+p {
+    color: white;
+}
+html {
+    background-color: black;
+}
+table {
+    color:white
+}
