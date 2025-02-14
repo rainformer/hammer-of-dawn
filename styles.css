@@ -13,3 +13,9 @@ html {
 table {
     color:white
 }
+img {
+    width: 40%;
+}
+div {
+    text-align: center;
+}
