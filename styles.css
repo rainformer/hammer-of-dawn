@@ -28,12 +28,24 @@ table {
 ul {
     color: white;
 }
+.div1 {
+    margin-left: 25%;
+    margin-right: 40%;
+}
+.div2 {
+    margin-left: 25%;
+    margin-right: 40%;
+}
 
+.div3 {
+    float: right;
+    margin-top: 20px;
+}
 a:link {
     color: aqua;
 }
 a:visited {
-    color: yellow;
+    color: orange;
 }
 a:hover {
     color: green;
