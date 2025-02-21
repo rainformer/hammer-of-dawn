@@ -22,7 +22,11 @@ table {
 .image {
     float: right;
     margin-left: 20px;
-    width: ;
+    width: 200px;
+    height: 400px;
+}
+ul {
+    color: white;
 }
 
 a:link {
