@@ -1,9 +1,15 @@
-h1 {
+h1{
     text-align: center;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: normal;
     color:white;
 }
+h2, h3, h4, h5, h6 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    color:white;
+}
+
 p {
     color: white;
 }
@@ -17,5 +23,16 @@ img {
     width: 40%;
 }
 div {
-    text-align: center;
+    float: right;
+    margin-left: 2px;
+
+}
+a:link {
+    color: aqua;
+}
+a:visited {
+    color: yellow;
+}
+a:hover {
+    color: green;
 }
