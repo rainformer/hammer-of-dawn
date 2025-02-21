@@ -19,14 +19,12 @@ html {
 table {
     color:white
 }
-img {
-    width: 40%;
-}
-div {
+.image {
     float: right;
-    margin-left: 2px;
-
+    margin-left: 20px;
+    width: ;
 }
+
 a:link {
     color: aqua;
 }
