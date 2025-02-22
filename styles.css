@@ -9,28 +9,39 @@ h2, h3, h4, h5, h6 {
     font-weight: normal;
     color:white;
 }
-
-p {
-    color: white;
-}
 html {
     background-color: black;
 }
-table {
-    color:white
-}
-.image {
-    float: right;
-    margin-left: 20px;
-    width: 200px;
-    height: 400px;
+p {
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    font-size: 15px;
 }
 ul {
-    color: white;
+    font-weight: normal;
+    font-size: 15px;
+}
+button {
+    background-color:rgb(233, 193, 14) ;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 3px 1px;
+    cursor: pointer;
+    color: black
 }
 .div1 {
     margin-left: 25%;
     margin-right: 40%;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.div2 {
+    margin-left: 70px;
 }
 a:link {
     color: aqua;
