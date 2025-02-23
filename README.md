@@ -1,3 +1,3 @@
 # hammer-of-dawn
 
-risistemo un po
+prima cartella, contiene una pagina satirica su Helldivers 2 
