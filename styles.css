@@ -21,6 +21,7 @@ p {
 ul {
     font-weight: normal;
     font-size: 15px;
+    color: white;
 }
 button {
     background-color:rgb(233, 193, 14) ;
@@ -39,8 +40,13 @@ button {
 button:hover {
     font-weight: bold;
 }
+.header {
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+}
 .img1 {
-    width: 20%;
+    width: 10%;
     height: auto;
     margin-right: 5px; 
     margin-bottom: 5px;
