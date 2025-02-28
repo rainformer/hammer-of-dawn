@@ -34,6 +34,9 @@ button {
     cursor: pointer;
     color: black
 }
+button:hover {
+    font-weight: bold;
+}
 .div1 {
     margin-left: 25%;
     margin-right: 40%;
