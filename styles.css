@@ -38,29 +38,70 @@ button {
 
 }
 button:hover {
-    font-weight: bold;
+    color: rgb(224, 65, 13);
 }
 .header {
     display: flex;
-    align-items: center;
     border: 2px solid white;
-}
-nav {
-    display: flex;
-    justify-items: ;
     align-items: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1; /* Prende tutto lo spazio disponibile tra il logo e il bottone contact */
+    gap: 20px; /* Aggiunge spazio tra i bottoni */
+}
+.tea-image {
+    width: 34%;
+    height: auto;
+    margin-right: 5px;
+    float: right;
+}
+.helldiver-image {
+    width: 23%;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+}
+.img2 {
+    width: 24%;
+    height: auto;
+    margin-left: 5px; 
+    margin-bottom: 5px;
+    float: left;
 }
 .b1 {
-    border-radius: 10px;
+    background-color:rgb(73, 4, 80) ;
+    border: none;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 15px;
-    margin: 3px 1px;
-    background-color: blue;
-    color:black;
+    font-size: 25px;
+    margin: 5px 0px;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
 
+}
+.b2 {
+    color: white;
+    font-size: 25px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    margin-right: 10px; 
+    text-decoration: none;
+    border: 2px solid #dfa904;;
+    padding: 5px 10px;
+
+}
+.b2:hover {
+    color: rgb(37, 33, 33);
+}
+.b2:visited {
+    color: white;
 }
 .img1 {
     width: 10%;
@@ -85,4 +126,13 @@ a:visited {
 }
 a:hover {
     color: green;
+}
+.b1:link {
+    color: black;
+}
+.b1:hover {
+    color: rgb(37, 33, 33);
+}
+.b1:visited {
+    color: rgb(225, 232, 236);
 }
