@@ -1,21 +1,138 @@
-h1 {
+h1{
     text-align: center;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: normal;
     color:white;
 }
-p {
-    color: white;
+h2, h3, h4, h5, h6 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    color:white;
 }
 html {
     background-color: black;
 }
-table {
-    color:white
+p {
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    font-size: 15px;
 }
-img {
-    width: 40%;
+ul {
+    font-weight: normal;
+    font-size: 15px;
+    color: white;
 }
-div {
+button {
+    background-color:rgb(233, 193, 14) ;
+    border: none;
+    padding: 10px 20px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 3px 1px;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+
+}
+button:hover {
+    color: rgb(224, 65, 13);
+}
+.header {
+    display: flex;
+    border: 2px solid white;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1; /* Prende tutto lo spazio disponibile tra il logo e il bottone contact */
+    gap: 20px; /* Aggiunge spazio tra i bottoni */
+}
+.tea-image {
+    width: 33%;
+    height: auto;
+    margin-right: 5px;
+    float: right;
+}
+.helldiver-image {
+    width: 23%;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+}
+.img2 {
+    width: 24%;
+    height: auto;
+    margin-left: 5px; 
+    margin-bottom: 5px;
+    float: left;
+}
+.b1 {
+    background-color:rgb(73, 4, 80) ;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 5px 0px;
+    cursor: pointer;
+    color: black;
+    border-radius: 10px;
+
+}
+.b2 {
+    color: white;
+    font-size: 25px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    margin-right: 10px; 
+    text-decoration: none;
+    border: 2px solid #dfa904;;
+    padding: 5px 10px;
+
+}
+.b2:hover {
+    color: rgb(37, 33, 33);
+}
+.b2:visited {
+    color: white;
+}
+.img1 {
+    width: 10%;
+    height: auto;
+    margin-right: 5px; 
+    margin-bottom: 5px;
+}
+.div1 {
+    margin-left: 25%;
+    margin-right: 40%;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.div2 {
+    margin-left: 70px;
+}
+a:link {
+    color: aqua;
+}
+a:visited {
+    color: orange;
+}
+a:hover {
+    color: green;
+}
+.b1:link {
+    color: black;
+}
+.b1:hover {
+    color: rgb(37, 33, 33);
+}
+.b1:visited {
+    color: rgb(225, 232, 236);
 }
