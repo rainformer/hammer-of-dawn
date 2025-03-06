@@ -45,6 +45,23 @@ button:hover {
     align-items: center;
     border: 2px solid white;
 }
+nav {
+    display: flex;
+    justify-items: ;
+    align-items: center;
+}
+.b1 {
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 3px 1px;
+    background-color: blue;
+    color:black;
+
+}
 .img1 {
     width: 10%;
     height: auto;
