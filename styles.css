@@ -24,7 +24,8 @@ ul {
     color: white;
 }
 button {
-    background-color:rgb(233, 193, 14) ;
+    
+    background-color: rgb(233, 193, 14);
     border: none;
     padding: 10px 20px;
     text-align: center;
@@ -38,7 +39,7 @@ button {
 
 }
 button:hover {
-    color: rgb(224, 65, 13);
+    background-color:rgb(173, 148, 5) ;
 }
 .header {
     display: flex;
